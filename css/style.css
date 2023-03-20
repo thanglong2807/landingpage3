@@ -35,6 +35,7 @@ button, input {
 }
 
 .header {
+  position: absolute;
   padding: 16px 0 8px;
   width: 100%;
 }
