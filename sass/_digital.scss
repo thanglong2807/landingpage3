@@ -1,0 +1,143 @@
+.digital {
+    background: #F7F5F1;
+    padding: 120px 0;
+
+    .digital-title {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+
+        text-align: center;
+        letter-spacing: -2px;
+
+        /* Text/Heading */
+
+        color: #2D3958;
+    }
+
+    .digital-description {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+
+        text-align: center;
+        letter-spacing: -0.3px;
+
+        /* Text/Text */
+
+        color: #7B88A8;
+        margin: 30px 0 120px;
+
+    }
+
+    .digital-image {
+        width: 569.6px;
+        height: 720px;
+
+        img {
+            min-width: 100%;
+            height: 100%;
+        }
+    }
+
+    .digital-item {
+        gap: 54px;
+        +.digital-item{
+          margin-top: 120px;  
+        }
+        .digital-list-title {
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 46px;
+            /* or 128% */
+
+            letter-spacing: -1px;
+
+            /* Text/Heading */
+
+            color: #2D3958;
+        }
+
+        .digital-list-description {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            /* or 156% */
+
+            letter-spacing: -0.3px;
+
+            /* Black/200 */
+
+            color: #788190;
+            margin: 30px 0 50px;
+        }
+
+        .digital-list-description2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            /* or 156% */
+
+            letter-spacing: -0.3px;
+
+            /* Black/200 */
+
+            color: #788190;
+        }
+
+        .digital-btn {
+            background: #4F77FF;
+            border-radius: 5px;
+            padding: 18px 32px;
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+
+            /* Text/Text White */
+
+            color: #FFFFFF;
+
+        }
+    }
+}
+
+.digital-list {
+    gap: 30px;
+
+}
+
+.digital-list-item {
+    gap: 13px;
+
+    .digital-list-item-content {
+        .digital-list-item-content-title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height, or 156% */
+
+            letter-spacing: 0.4px;
+
+            /* Text/Heading */
+
+            color: #2D3958;
+        }
+
+        .digital-list-item-content-description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            /* Text/Text */
+
+            color: #7B88A8;
+        }
+
+
+    }
+}

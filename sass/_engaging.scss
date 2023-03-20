@@ -1,0 +1,121 @@
+.engaging {
+    padding: 150px 0 120px;
+    background-color: #FFFFFF;
+
+    .engaging-content {
+        .engaging-title {
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 72px;
+            /* or 112% */
+
+            text-align: center;
+            letter-spacing: -2px;
+
+            /* Text/Heading */
+
+            color: #2D3958;
+
+        }
+
+        .engaging-description {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height, or 156% */
+
+            text-align: center;
+            letter-spacing: -0.3px;
+
+            /* Text/Text */
+
+            color: #7B88A8;
+            margin: 30px 0 80px;
+
+        }
+
+    }
+}
+
+.engaging-list {
+    gap: 30px;
+
+    .engaging-list-item {
+        background: #FFFFFF;
+        /* Lines/HR Line */
+        padding: 50px 35px 60px;
+        border: 1px solid rgba(97, 119, 152, 0.2);
+        border-radius: 20px;
+
+        &:hover {
+            box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+            border: 1px solid rgba(97, 119, 152, 0);
+
+        }
+
+        .engaging-list-item-title {
+            margin: 22px 40px;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 32px;
+            /* or 145% */
+
+            text-align: center;
+            letter-spacing: -1px;
+
+            /* Primary color/black */
+
+            color: #120F1F;
+        }
+
+        .engaging-list-item-description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+            text-align: center;
+
+            /* Text/Text */
+
+            color: #7B88A8;
+        }
+    }
+}
+
+.engaging-handle {
+    background: #4F77FF;
+    border-radius: 5px;
+    padding: 18px 32px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+
+    /* Text/Text White */
+
+    color: #FFFFFF;
+    margin: 70px 0 120px;
+
+}
+
+.engaging-brands-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    text-align: center;
+    letter-spacing: -1px;
+
+    /* Text color/black */
+
+    color: #000000;
+}
+
+.engaging-mw-title {
+    max-width: 970px;
+}
+
+.engaging-brands-list{
+    margin-top: 80px;
+    gap: 105px;
+}

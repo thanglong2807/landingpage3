@@ -1,0 +1,63 @@
+.branding {
+    background: url('../image/BG.png') center center;
+    background-size: contain;
+
+
+    width: 100%;
+    height: 100vh;
+
+    .scroll {
+        position: absolute;
+        bottom: -65px;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+    }
+
+    .container {
+        height: 100%
+    }
+
+    .branding_content {
+        @include centerLayout;
+        height: 100%;
+
+
+        max-width: 496px;
+
+        .branding--item-description {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            /* or 156% */
+            margin-top: 28%;
+            letter-spacing: -0.3px;
+
+            /* Text/Text */
+
+            color: #7B88A8;
+        }
+
+        .branding_content-item-handle {
+            display: flex;
+            align-items: center;
+            margin-top: 70px;
+            text-transform: uppercase;
+
+            .btn {
+                @include btnPrimary;
+                padding: 16px 32px;
+            }
+
+        }
+
+        .branding_content-img {
+            width: 386px;
+
+            img {
+                max-width: 100%;
+
+            }
+        }
+    }
+}

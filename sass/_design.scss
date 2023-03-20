@@ -1,0 +1,53 @@
+.design {
+    background: url('../image/BG2.png') center center no-repeat #F7F5F1;
+    background-size: cover;
+    padding: 106px 0 220px;
+
+    .design-content {
+        max-width: 870px;
+        margin: 0 auto;
+
+        .design-title {
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 56px;
+            /* or 117% */
+
+            text-align: center;
+            letter-spacing: -2px;
+
+            /* Text/Heading */
+
+            color: #2D3958;
+
+        }
+
+        .design-description {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 32px;
+            /* identical to box height, or 145% */
+
+            text-align: center;
+            letter-spacing: -1px;
+
+            /* Text/Text */
+
+            color: #7B88A8;
+
+            margin: 30px 0 85px;
+        }
+
+        .design-btn {
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+
+            /* Text/Text White */
+
+            color: #FFFFFF;
+            background: #4F77FF;
+            border-radius: 5px;
+            padding: 18px 32px;
+        }
+    }
+}

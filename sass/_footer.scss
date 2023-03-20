@@ -1,0 +1,145 @@
+.footer {
+    background: #292F3A;
+    padding: 150px 0 27px;
+}
+
+.footer-content {
+    .footer-top {
+        gap: 31px;
+
+        .logo-container,
+        .footer-list {
+            min-width: 170px;
+        }
+
+        .logo-container {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            /* or 133% */
+
+            letter-spacing: -0.4px;
+
+            /* Text/Text White */
+
+            color: #FFFFFF;
+        }
+
+        .footer-list-title {
+
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 32px;
+            /* identical to box height, or 145% */
+
+            letter-spacing: -1px;
+
+            /* Text/Text White */
+
+            color: #FFFFFF;
+
+            +.footer-top-description {
+                margin-top: 20px;
+            }
+        }
+
+        .footer-list-link {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            /* identical to box height, or 171% */
+
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+
+            /* Text/Text Gray */
+
+            color: #E7E5EA;
+
+        }
+
+        .footer-top-description {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            /* Text/Text Gray */
+
+            color: #E7E5EA;
+        }
+
+        .footer-form {
+            gap: 6px;
+
+            .footer-input {
+                background: #E7E5EA;
+                border-radius: 5px;
+                padding: 11px 0 11px 18px;
+
+                &::placeholder {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    /* identical to box height, or 162% */
+
+
+                    /* Text/Text */
+
+                    color: #7B88A8;
+
+                    opacity: 0.7;
+                }
+            }
+
+            .footer-btn {
+                background: #4F77FF;
+                border-radius: 5px;
+                letter-spacing: -0.3px;
+                text-transform: uppercase;
+                padding: 12px 39px;
+                color: #FFFFFF;
+
+            }
+        }
+    }
+}
+
+.footer-nav {
+    margin-top: 20px;
+    gap: 10px;
+
+    +li {
+        margin-top: 20px;
+    }
+}
+
+.footer-bottom {
+    border-top: 1px solid #7b88a83a;
+    padding: 40px 0 0;
+    margin-top: 100px;
+
+    .footer-bottom-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+
+        /* Text/Text Gray */
+
+        color: #E7E5EA;
+    }
+
+    .footer-bottom-icon {
+        width: 52px;
+        height: 52px;
+        background : #4F77FF;
+        border-radius: 50%;
+    }
+}
+.footer-icon{
+    gap: 20px;
+}

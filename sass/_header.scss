@@ -1,0 +1,106 @@
+.header {
+    position: absolute;
+    width: 100%;
+    .header-content {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo-container {
+            @include centerLayout;
+
+            .logo {
+                width: 32px;
+                height: 44px;
+                margin-right: 10px;
+            }
+
+            .logo-title {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                /* or 133% */
+
+                letter-spacing: -0.4px;
+
+                /* Text/Heading */
+
+                color: #2D3958;
+            }
+        }
+
+
+    }
+
+    .header-list {
+        display: flex;
+        gap: 30px;
+
+        .list-content {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            /* identical to box height, or 160% */
+
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+
+            /* Text/Text */
+
+            color: #7B88A8;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+
+        .active {
+            color: #2D3958;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -14px;
+                left: 50%;
+                width: 10px;
+                height: 10px;
+                background: #34C635;
+                transform: translate(-50%, 0);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .handle {
+        display: flex;
+        gap: 25px;
+
+        .sign-up {
+            padding: 12px 38.5px;
+            @include btnPrimary;
+
+        }
+
+        .handle-bag {
+            @include centerLayout;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 12px;
+                left: 13px;
+                background: #EF3737;
+                border: 1px solid #FFFFFF;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+        }
+    }
+}

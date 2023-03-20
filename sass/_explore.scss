@@ -1,0 +1,60 @@
+.explore {
+    padding: 120px 0 118px;
+
+    .explore-title {
+        max-width: 970px;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 50px;
+        /* or 119% */
+        margin: 0 auto 100px;
+        text-align: center;
+        letter-spacing: -0.02em;
+
+        /* Text/Heading */
+
+        color: #2D3958;
+
+    }
+
+    .explore-image-container {
+        gap: 50px 30px;
+
+        .explore-image {
+            h4 {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 32px;
+                /* or 145% */
+
+                letter-spacing: -1px;
+
+                /* Action/Blue */
+                margin-top: 29px;
+                color: #4F77FF;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            &:nth-child(1) {
+                width: 670px;
+            }
+
+            &:nth-child(2) {
+                width: 470px;
+            }
+
+            &:nth-child(3) {
+                width: 470px;
+            }
+
+            &:nth-child(4) {
+                width: 670px;
+            }
+
+        }
+    }
+}
