@@ -18,6 +18,7 @@ a[href] {
 ul, ol {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 span, a {
@@ -34,11 +35,10 @@ button, input {
 }
 
 .header {
-  position: absolute;
+  padding: 16px 0 8px;
   width: 100%;
 }
 .header .header-content {
-  margin-top: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,7 +120,7 @@ button, input {
 .header .handle .handle-bag::before {
   content: "";
   position: absolute;
-  top: 12px;
+  top: 0;
   left: 13px;
   background: #EF3737;
   border: 1px solid #FFFFFF;
